@@ -1,5 +1,5 @@
 This is the source for my personal webpage. I am a fan of automated build and deploy systems with continuous integration, so this project utilizes Maven, Tomcat, and Jenkins.
 
 Points of interest:
-Live site: [petermuller.noip.me:8080/pile](petermuller.noip.me:8080/pile)
-Build site: [petermuller.noip.me:8080/jenkins/job/Website](petermuller.noip.me:8080/jenkins/job/Website)
+Live site: [petermuller.noip.me:8080/pile](http://petermuller.noip.me:8080/pile)
+Build site: [petermuller.noip.me:8080/jenkins/job/Website](http://petermuller.noip.me:8080/jenkins/job/Website)
