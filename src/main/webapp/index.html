@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Get some Bootstrap in here! -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <!-- End Bootstrap and dependencies -->
+    <!-- Start user-defined libraries -->
+    <script src="js/content.js"></script>
+    <title>Peter's Pile</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+      <div class="container">
+        <ul class="nav navbar-nav nav-pills">
+          <li><a href="#" onclick="getHome();">Home</a></li>
+          <li><a href="#" onclick="getProjects();">Projects</a></li>
+          <li><a href="#" onclick="getResume();">Resume</a></li>
+          <li><a href="#" onclick="getAbout();">About</a></li>
+          <li><a href="#" onclick="getMore();">More</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="jumbotron">
+      <div class="container">
+        <h1 id="mainTitle">Hello, World!</h1>
+        <p id="mainDesc">This is some filler text to make it look like I did a thing to my website.</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Test REST API</h2>
+          <button type="button" class="btn btn-default" onclick="testConnection();">Ping</button>
+          <p id="connectionResponse"></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Another Heading</h2>
+        </div>
+        <div class="col-md-4">
+          <h2>A Third Header</h2>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
